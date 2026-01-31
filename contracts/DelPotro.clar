@@ -1,8 +1,8 @@
 ;; This contract implements the SIP-009 community-standard Non-Fungible Token trait
-(impl-trait 'SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait.nft-trait)
+(impl-trait 'SP1AJVMEGSMD6QCSZ1669Z5G90GEHVK2MEM7J0AHH.DelPotro)
 
 ;; Define the NFT's name
-(define-non-fungible-token Your-NFT-Name uint)
+(define-non-fungible-token DelPotro uint)
 
 ;; Keep track of the last minted token ID
 (define-data-var last-token-id uint u0)
